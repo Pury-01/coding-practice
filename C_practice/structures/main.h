@@ -18,4 +18,18 @@ struct cube
 	char p_gender;
 };
 
+
+/**
+ *struct patient - structure of patients details
+ *@id: identity number of the patient
+ *@name: identity name of patient
+ *@gender: sex of patient
+ */
+struct patient
+{
+	int id;
+	char name[10];
+	char gender;
+};
+
 #endif /*MAIN_H */
