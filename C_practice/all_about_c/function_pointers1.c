@@ -39,11 +39,18 @@ void mul(int a, int b)
 
 void operator(void (*op)(int,int))
 {
-	op(7, 8);
+	int a, b;
+
+	printf("Enter two numbers:");
+	scanf("%d %d\n", &a, &b);
+
+	op(a, b);
 }
-void main(void)
+int main(void)
 {
 	operator(divide);
 	operator(mul);
 	operator(add);
+	
+	return (0);
 }
