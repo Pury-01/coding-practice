@@ -1,0 +1,29 @@
+The choice of file extensions (.txt in this case) is based on the nature and purpose of the file:
+
+Input Data File (.txt):
+
+The file you're using for input is generally a data file containing input values or test cases for your program.
+Using a .txt extension indicates that the file is a plain text file, containing human-readable text data.
+It's a common convention to use .txt for files that contain data rather than executable code.
+C Source Code File (.c):
+
+The .c extension is typically reserved for C source code files.
+C source code files contain the actual programming instructions written in the C language.
+Executable files compiled from C source code usually have a different extension, such as .exe on Windows or no extension on Unix-like systems.
+When you're working with C programs, it's standard practice to use .c for your source code files and other extensions (or no extension) for different types of files. The .txt extension for the input file is just a convention to signify that the file contains plain text data and is not executable code.
+
+In summary, the choice of file extensions helps users and developers quickly understand the contents and purpose of the file. It's a way of organizing and identifying files based on their content and intended use.
+
+
+
+
+got it ..I now have my .txt input file and my compiled executable file in the same directory.how do i run it?
+
+ChatGPT
+To run your compiled executable file with the input file in the same directory, follow these steps:
+
+Open a Terminal or Command Prompt:
+Open a terminal or command prompt on your computer.
+
+Navigate to the Directory:
+Use the cd command to navigate to the directory where your executable and input file are located. For example
